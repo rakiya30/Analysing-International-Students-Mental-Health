@@ -42,3 +42,27 @@ This project analyzes mental health metrics (depression, social connectedness, a
   - Are female students more likely to report higher stress (toas) and (todep) than male students.
  
   - Does high social connectedness (tosc > 30) mitigate the impact of low language skills on stress.
+ 
+    ## DATASET DESCRIPTION
+
+    - The dataset contains survey responses from 268 students (201 international, 68 domestic) collected in 2018 by a japanese university. Here is a descriptions of the columms:
+   
+    -- Variables
+ 
+    - inter_dom  -   Types of students(international or domestic)
+   
+    - japanese_cate - japanese language proficiency
+   
+    - english_cate - English language proficiency
+   
+    - academic - Current academic level undergraduate or graduate
+   
+    - age   -   Current age of students
+   
+    - stay -  Current length of stay in years
+   
+    - todep - Total score of social connectedness (scs) test
+   
+    - toas  - Total score of acculturative stress
+   
+    -  
