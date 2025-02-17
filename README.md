@@ -14,7 +14,7 @@ This repository analyzes data from a 2018 study conducted by a Japanese internat
   
 - SQL Scripts
 
-  --
+
 
   ## PROJECT OVERVIEW
 This project analyzes mental health metrics (depression, social connectedness, and acculturative stress) of international students at a Japanese university. The goal is to identify risk factors and propose interventions to improve student well-being.  
@@ -65,4 +65,4 @@ This project analyzes mental health metrics (depression, social connectedness, a
    
     - toas  - Total score of acculturative stress
    
-    -  
+    
