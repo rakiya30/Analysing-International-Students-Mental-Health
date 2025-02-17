@@ -1,7 +1,7 @@
 # Analysing-International-Students-Mental-Health
 This repository analyzes data from a 2018 study conducted by a Japanese international university, which found that international students face higher risks of mental health challenges compared to the general population. 
 
-## Table of Contents
+## TABLE OF CONTENTS
 -  Project Overview
   
 - Dataset Description
@@ -16,7 +16,7 @@ This repository analyzes data from a 2018 study conducted by a Japanese internat
 
   --
 
-  ### Project Overview
+  ## PROJECT OVERVIEW
 This project analyzes mental health metrics (depression, social connectedness, and acculturative stress) of international students at a Japanese university. The goal is to identify risk factors and propose interventions to improve student well-being.  
 
 - key questions that this project aims to answer and provide recommendations
