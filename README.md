@@ -45,7 +45,7 @@ This project analyzes mental health metrics (depression, social connectedness, a
  
     ## DATASET DESCRIPTION
 
-    - The dataset contains survey responses from 268 students (201 international, 68 domestic) collected in 2018 by a japanese university. The dataset contains 50 columns with 268 rows, however for this analysis we used only eight columnns relevant to the questions that this project aims to answer. Here is a descriptions of the columms:
+    - The dataset contains survey responses from 268 students (201 international, 68 domestic) collected in 2018 by a japanese university. The dataset has a total of 50 columns with 268 rows, however for this analysis we used only eight columnns relevant to the questions that this project aims to answer. Here is a descriptions of the columms:
    
   
  
