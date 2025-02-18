@@ -114,7 +114,7 @@ SELECT
 
 
 2. Are international students with both low English and Japanese proficiency at the highest risk of depression?
-  - The results revealead that students with low english and japanese proficiency are not at the highest risk of depression. Infact the results of the analyssi shows that students with average english and 
+  - The results revealead that students with low english and japanese proficiency are not at the highest risk of depression. Infact the results of the analysis shows that students with average english and 
    japanese proficiency are the highest at risk of depression.
    
 SELECT 
@@ -139,7 +139,7 @@ ORDER BY english_cate, japanese_cate;
 
 
 3. Does longer stay reduce stress or improve social connections?
-- The data showed that longer stay reduces stress with 10 years being the highest stay with an average stress level of 50. Interestigly longer stay also accounts for the highest level of depression within the dataset.
+-The results revealead that students with low english and japanese proficiency are not at the highest risk of depression.
 
 SELECT stay AS total_stay_in_host_country,
 
