@@ -71,12 +71,36 @@ This project analyzes mental health metrics (depression, social connectedness, a
 
   Data Collection & Preparation
 
-  Source: The dataset originates from a 2018 survey of international and domestic students at a Japanese university, approved by ethical review boards.
+  Source: The dataset was downloaded from DataCamp and originates from a 2018 survey of international and domestic students at a Japanese university, approved by ethical review boards.
 
   Tools:
 
   Excel: Initial exploration and validation of raw data.
 
   SQL Server: Data cleaning, Exploratory data analysis.
-   
+
+
+ ## PROCESS
+
+1. Data Cleaning: Removed 18 rows with missing values, updated Null with 0 in critical columns.  
+ 
+2. Aggregation: Calculated average scores for depression, stress, and social connectedness.
     
+3. Segmentation: Analyzed trends by language proficiency, academic level, and stay duration.  
+
+
+  ## KEY FINDINGS
+
+1. Domestic VS International Students average depression scores
+   
+The results did not reveal any difference in depression scores between International and Domestic students as they both reported an average of 8. Investigating further using english proficiency, the data revealed that International students with high english proficiency reported a lower depression score of 7 compare to their japanese colleagues.
+
+SELECT 
+    inter_dom,
+    AVG(todep) AS avg_depression
+FROM students.dbo.students
+GROUP BY inter_dom;
+
+   
+ ![International vs domestic](https://github.com/user-attachments/assets/bde61134-05e2-4687-b8c8-c2fbe0caa40a)
+
