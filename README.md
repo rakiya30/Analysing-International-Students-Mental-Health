@@ -97,10 +97,46 @@ The results did not reveal any difference in depression scores between Internati
 
 SELECT 
     inter_dom,
+    
     AVG(todep) AS avg_depression
-FROM students.dbo.students
-GROUP BY inter_dom;
+    
+   FROM students.dbo.students
+   
+   GROUP BY inter_dom;
+
 
    
  ![International vs domestic](https://github.com/user-attachments/assets/bde61134-05e2-4687-b8c8-c2fbe0caa40a)
+
+ 
+
+![inter-dom-english_cate](https://github.com/user-attachments/assets/e201cc2b-8b3a-4fec-a850-5d641b7c5972)
+
+
+2. Are international students with both low English and Japanese proficiency at the highest risk of depression?
+   The results revealead that students with low english and japanese proficiency are not at the highest risk of depression. Infact the results of the analyssi shows that students with average english and 
+   japanese proficiency are the highest at risk of depression.
+   
+SELECT 
+english_cate, japanese_cate,
+
+AVG(todep) AS avg_depression
+
+FROM students.dbo.students
+
+WHERE english_cate IS NOT NULL
+
+AND japanese_cate IS NOT NULL
+
+AND todep IS NOT NULL
+
+GROUP BY english_cate, japanese_cate
+
+ORDER BY english_cate, japanese_cate;
+
+
+![English_japanese](https://github.com/user-attachments/assets/d5c2af00-0edc-4977-8c84-001df31b2bcd)
+
+
+ 
 
