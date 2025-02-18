@@ -15,7 +15,7 @@ This repository analyzes data from a 2018 study conducted by a Japanese internat
 - SQL Scripts are available here:
   (https://github.com/rakiya30/Analysing-International-Students-Mental-Health/blob/main/Students_mental_health.sql).
 
-- download dataset https://github.com/rakiya30/Analysing-International-Students-Mental-Health/blob/main/students.csv
+- Download Dataset https://github.com/rakiya30/Analysing-International-Students-Mental-Health/blob/main/students.csv
 
 
 
