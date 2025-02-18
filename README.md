@@ -139,7 +139,7 @@ ORDER BY english_cate, japanese_cate;
 
 
 3. Does longer stay reduce stress or improve social connections?
-The data showed that longer stay reduces stress with 10 years being the highest stay with an average stress level of 50.
+The data showed that longer stay reduces stress with 10 years being the highest stay with an average stress level of 50. Interestigly longer stay also accounts for the highest level of depression within the dataset.
 
 SELECT stay AS total_stay_in_host_country,
 
@@ -158,6 +158,28 @@ GROUP BY stay
 ORDER BY stay DESC;
 
 ![avg_stress](https://github.com/user-attachments/assets/9116ca06-1576-42e2-9a23-aa2f60f1228b)
+
+4. Impact of english proficiency on stress and depression.
+   The result shows that english language proficiency does not have an impact on stress and depression levels of international students.
+   
+SELECT DISTINCT
+   
+english_cate,
+
+AVG(toas) AS avg_stress,
+
+AVG(todep) AS avg_dep
+
+FROM students.dbo.students
+
+WHERE inter_dom = 'inter'
+
+GROUP BY english_cate
+
+ORDER BY avg_stress DESC;
+
+![depression_levels](https://github.com/user-attachments/assets/1530d8f1-2b07-4ca6-a4c3-4f8000052e4a)
+
 
 
 
