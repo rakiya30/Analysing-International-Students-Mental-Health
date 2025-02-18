@@ -47,7 +47,7 @@ This project analyzes mental health metrics (depression, social connectedness, a
  
     ## DATASET DESCRIPTION
 
-  The dataset contains survey responses from 268 students (201 international, 68 domestic) collected in 2018 by a japanese university. The dataset has a total of 50 columns with 268 rows, however for this analysis we used only eight columnns relevant to the questions that this project aims to answer. Here is a descriptions of the columms:
+  The dataset contains survey responses from 268 students (201 international, 68 domestic) collected in 2018 by a japanese university. The dataset has a total of 50 columns with 268 rows, however for this analysis we used only eight columnns relevant to the questions that this project aims to answer. Here is a description of the columms:
    
   
  
@@ -66,5 +66,17 @@ This project analyzes mental health metrics (depression, social connectedness, a
     - todep - Total score of social connectedness (scs) test
    
     - toas  - Total score of acculturative stress
+ 
+  ## METHODOLOGY
+
+  Data Collection & Preparation
+
+  Source: The dataset originates from a 2018 survey of international and domestic students at a Japanese university, approved by ethical review boards.
+
+  Tools:
+
+  Excel: Initial exploration and validation of raw data.
+
+  SQL Server: Data cleaning, Exploratory data analysis.
    
     
