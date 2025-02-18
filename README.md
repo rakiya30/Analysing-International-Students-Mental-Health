@@ -108,9 +108,9 @@ SELECT
    
  ![International vs domestic](https://github.com/user-attachments/assets/bde61134-05e2-4687-b8c8-c2fbe0caa40a)
 
- 
 
 ![inter-dom-english_cate](https://github.com/user-attachments/assets/e201cc2b-8b3a-4fec-a850-5d641b7c5972)
+
 
 
 2. Are international students with both low English and Japanese proficiency at the highest risk of depression?
@@ -136,6 +136,29 @@ ORDER BY english_cate, japanese_cate;
 
 
 ![English_japanese](https://github.com/user-attachments/assets/d5c2af00-0edc-4977-8c84-001df31b2bcd)
+
+
+3. Does longer stay reduce stress or improve social connections?
+The data showed that longer stay reduces stress with 10 years being the highest stay with an average stress level of 50.
+
+SELECT stay AS total_stay_in_host_country,
+
+AVG(toas) AS avg_stress,
+
+AVG(tosc) AS avg_social_connectedness,
+
+AVG(todep) AS avg_depression
+
+FROM students.dbo.students
+
+WHERE inter_dom = 'inter'
+
+GROUP BY stay
+
+ORDER BY stay DESC;
+
+![avg_stress](https://github.com/user-attachments/assets/9116ca06-1576-42e2-9a23-aa2f60f1228b)
+
 
 
  
