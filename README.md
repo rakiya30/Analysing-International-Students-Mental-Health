@@ -40,7 +40,7 @@ This project analyzes mental health metrics (depression, social connectedness, a
  
   - track stress trends by language proficiency and stay duration.
  
-  - Do younnger students (<25) with low social connectedness (tosc < 30 ) have higher depression rates than older peers.
+  - Do younger students (<25) with low social connectedness (tosc < 30 ) have higher depression rates than older peers.
  
   - Are female students more likely to report higher stress (toas) and (todep) than male students.
  
